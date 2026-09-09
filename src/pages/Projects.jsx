@@ -1,64 +1,9 @@
 import { ArrowRight, CheckCircle2, Sparkles } from "lucide-react";
-
-const treatments = [
-  {
-    category: "Implant Dentistry",
-    title: "Dental Implant Restoration",
-    description:
-      "Advanced tooth replacement designed to restore function, appearance and confidence.",
-    image:
-      "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=80",
-  },
-  {
-    category: "Cosmetic Dentistry",
-    title: "Smile Makeover",
-    description:
-      "Personalized cosmetic dental treatment focused on creating a healthier and more confident smile.",
-    image:
-      "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1000&q=80",
-  },
-  {
-    category: "Restorative Dentistry",
-    title: "Root Canal Treatment",
-    description:
-      "Carefully planned treatment to help preserve damaged teeth and maintain natural function.",
-    image:
-      "https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=1000&q=80",
-  },
-  {
-    category: "Preventive Dentistry",
-    title: "Complete Dental Checkup",
-    description:
-      "Routine examination and preventive care to identify dental concerns before they become bigger problems.",
-    image:
-      "https://images.unsplash.com/photo-1606265752439-1f18756aa2fc?auto=format&fit=crop&w=1000&q=80",
-  },
-  {
-    category: "Aesthetic Dentistry",
-    title: "Teeth Whitening",
-    description:
-      "Professional whitening solutions designed to brighten your smile safely and effectively.",
-    image:
-      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=80",
-  },
-  {
-    category: "Family Dentistry",
-    title: "Family Dental Care",
-    description:
-      "Comfortable dental care for patients of different ages with a focus on long-term oral health.",
-    image:
-      "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&w=1000&q=80",
-  },
-];
-
-const highlights = [
-  "Personalized treatment planning",
-  "Modern dental techniques",
-  "Patient-focused experience",
-  "Comprehensive dental care",
-];
+import useData from "../hooks/useData";
 
 const Projects = () => {
+  const { treatments, highlights } = useData();
+
   return (
     <main>
       {/* Hero */}
