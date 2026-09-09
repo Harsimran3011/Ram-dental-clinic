@@ -89,7 +89,7 @@ const Navbar = () => {
           </a>
 
           <Link
-            to="/appointment"
+            to="/contact"
             className="inline-flex items-center gap-2 rounded-full bg-[#159a8c] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#117d72]"
           >
             <CalendarDays size={17} />
@@ -129,7 +129,7 @@ const Navbar = () => {
             ))}
 
             <Link
-              to="/appointment"
+              to="/contact"
               onClick={closeMenu}
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-[#159a8c] px-5 py-3 font-semibold text-white"
             >
@@ -138,7 +138,7 @@ const Navbar = () => {
             </Link>
 
             <a
-              href="tel:+91XXXXXXXXXX"
+              href="tel:+918872118797"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-5 py-3 font-semibold text-slate-700"
             >
               <Phone size={18} />

@@ -54,7 +54,7 @@ const Home = () => {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  to="/appointment"
+                  to="/contact"
                   className="rounded-full bg-[#12a89d] px-6 py-3.5 text-sm font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#0d9188] hover:shadow-lg"
                 >
                   Book Appointment →
@@ -162,7 +162,7 @@ const Home = () => {
                     </p>
 
                     <Link
-                      to="/appointment"
+                      to="/conatct"
                       className="mt-5 inline-block text-sm font-semibold text-[#12a89d] transition hover:translate-x-1"
                     >
                       Book Consultation →
@@ -223,7 +223,7 @@ const Home = () => {
                 </div>
 
                 <Link
-                  to="/appointment"
+                  to="/contact"
                   className="mt-8 inline-block rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-[#103f3d] transition duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
                   Schedule Your Visit →
@@ -259,7 +259,7 @@ const Home = () => {
           </p>
 
           <Link
-            to="/appointment"
+            to="/contact"
             className="mt-8 inline-block rounded-full bg-[#12a89d] px-7 py-3.5 text-sm font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#0d9188] hover:shadow-lg"
           >
             Book an Appointment →
