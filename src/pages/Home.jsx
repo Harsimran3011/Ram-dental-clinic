@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import useData from "../hooks/useData";
-import Footer from "../components/Footer";
 
 const Home = () => {
   const { treatments, highlights, stats } = useData();
@@ -266,8 +265,6 @@ const Home = () => {
           </Link>
         </section>
       </main>
-
-      <Footer />
     </>
   );
 };
