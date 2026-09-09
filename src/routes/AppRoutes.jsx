@@ -3,7 +3,6 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 import MainLayout from "../layouts/MainLayout";
-
 import AuthLayout from "../layouts/AuthLayout";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
@@ -35,14 +34,17 @@ const AppRoutes = () => {
           element: <Home />,
         },
         {
-          path: "/about",
+          path: "about",
           element: <About />,
         },
         {
-          path: "/projects",
+          path: "projects",
           element: <Projects />,
         },
-        { path: "contact", element: <Contact /> },
+        {
+          path: "contact",
+          element: <Contact />,
+        },
       ],
     },
   ]);

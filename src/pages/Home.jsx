@@ -161,7 +161,7 @@ const Home = () => {
                     </p>
 
                     <Link
-                      to="/conatct"
+                      to="/contact"
                       className="mt-5 inline-block text-sm font-semibold text-[#12a89d] transition hover:translate-x-1"
                     >
                       Book Consultation →
